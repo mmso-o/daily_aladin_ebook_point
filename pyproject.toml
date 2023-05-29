@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aladin"
+version = "0.1.0"
+description = ""
+authors = ["mmso-o <4.mmsoo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+playwright = "^1.34.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
